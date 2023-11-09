@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: red;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-head{
+    border: 3px solid white;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 1.5rem;
+    font-weight: 700;
+    font-size: 17px;
+}
+#banne-image{
+    background-image: url(../assets/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    padding-top: 197px;
+    box-sizing: border-box;
+}
+#banner-txt{
+    background-color: #ff9800ad;
+    width: 362px;
+    font-size: 43px;
+    padding: 30px 20px;
+    color: white;
+}
+#banner-txt h1 span{
+    font-size: 78px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229 226 226);
+    height: 48px;
+}
+.container2{
+    width: 65%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 7rem;
+    color: #4c4c4c;
+    font-size: 17px;
+}
+#para-sec{
+    margin: 5% 15%;
+}
+#para-sec h1{
+    color: red;
+    padding-bottom: 7px;
+    font-size: 30px;
+}
+#para-sec p{
+    color: grey;
+    line-height: 23px;
+}
+#para-sec p span{
+    font-size: 17px;
+    color: black;
+}
+#img-sec{
+    display: flex;
+    justify-content: space-between;
+}
+#first-img{
+    padding-left: 28px;
+}
+#second-img{
+
+}
+/* #container{
+    width: 65%;
+    margin: 0 auto;
+} */
+#img-sec img{
+    width: 75%;
+}
+#email{
+    background-color: #dfdfdf;
+    text-align: center;
+    height: 190px;
+    padding-top: 86px;
+    margin-top: 65px;
+}
+#email p{
+    color: #858282;
+    margin: 10px 0;
+}
+#email button{
+    background-color: #edeaea;
+    color: #858282;
+    border-radius: 11px;
+    padding: 6px 13px;
+    border: none;
+    font-size: 14px;
+    margin-top: 6px;
+    padding-right: 40px;
+}
+footer{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 52px;
+    align-items: center;
+}
+
